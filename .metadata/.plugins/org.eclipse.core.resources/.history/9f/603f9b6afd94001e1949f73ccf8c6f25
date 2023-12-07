@@ -1,0 +1,18 @@
+package testCases;
+
+import org.apache.hc.core5.util.Asserts;
+import org.testng.annotations.Test;
+
+import base.BaseTest;
+
+public class Test1 extends BaseTest {
+
+	@Test
+	public void verifyURL() {
+		String expUrl = "https://www.spicejet.com/";
+		String actUrl = driver.getCurrentUrl();
+		
+
+	}
+}
+s
